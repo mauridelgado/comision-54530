@@ -201,8 +201,8 @@ footer img {
             grid-template-areas: 
             "tannat cabernet"
             "tannat roble"
-            "espumante chardonnay"
-            "espumante rosado";
+            "chardonnay espumante"
+            "rosado espumante";
         }
         .tannat {
             grid-area: tannat;
