@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* font-family: 'Fira Sans Condensed', sans-serif; */
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    height: 100vh;
+    background-image: url(../assets/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    overflow: auto;
+}
+
+header {
+    background-color: #675D50;
+}
+
+.navBar ul,
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #F3DEBA;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    width: 10rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #F3DEBA;
+    font-size: 2rem;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.subt {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+p {
+    display: flex;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: justify;
+    padding: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.fotos {
+    display: flex;
+    width: 20rem;
+    background-color: #675D50;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.losVinos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.losVinos p {
+    background-color: #675D50;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.vino {
+    height: 15rem;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 1rem;
+    margin: 2rem;
+}
+form div {
+    display: flex;
+}
+
+label {
+    background-color: #F3DEBA;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #F3DEBA;
+}
+
+footer img {
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+@media (min-width: 375px) {
+    header nav ul li a {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 12rem;
+    }
+   .subt {
+    font-size: 2.2rem;
+   }
+   p {
+    font-size: 1.7rem
+   }
+   .fotos {
+    width: 25rem;
+   }
+   .vino {
+    height: 20rem;
+   }
+   .losVinos p {
+    font-size: 1.7rem;
+    margin: 1.2rem;
+   }
+}
