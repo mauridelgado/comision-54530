@@ -106,9 +106,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
     background-color: rgba(0, 0, 0, 0.39);
-    padding: 1rem;
+    width: 80%;
     margin: 2rem;
 }
 
@@ -116,10 +115,12 @@ p {
     background-color: #675D50;
     font-size: 1.5rem;
     margin: 1rem;
+    justify-content: center;
 }
 
 .vino {
     height: 15rem;
+    justify-content: center;
 
 }
 
@@ -130,7 +131,6 @@ p {
     align-items: center;
     width: 80%;
     background-color: rgba(0, 0, 0, 0.39);
-    padding: 1rem;
     margin: 2rem;
 }
 form div {
@@ -206,21 +206,50 @@ footer img {
         }
         .tannat {
             grid-area: tannat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
         }
         .cabernet {
             grid-area: cabernet;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
         }
         .roble {
             grid-area: roble;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
         }
         .espumante {
             grid-area: espumante;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
         }
         .chardonnay {
             grid-area: chardonnay;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .rosado {
             grid-area: rosado;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
         }
         .losVinos img {
             justify-content: center;
