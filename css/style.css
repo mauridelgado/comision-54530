@@ -132,6 +132,17 @@ p {
     margin: 2rem;
 }
 
+.sectionVino {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin: 2rem;
+
+}
+
 form div {
     display: flex;
 }
@@ -203,7 +214,7 @@ footer img {
         width: 15rem;
     }
 
-    .losVinos {
+    .sectionVino {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -232,7 +243,6 @@ footer img {
         grid-area: roble;
         display: flex;
         flex-direction: column;
-
     }
 
     .espumante {
