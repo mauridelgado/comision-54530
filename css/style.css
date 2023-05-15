@@ -106,8 +106,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.39);
-    width: 80%;
     margin: 2rem;
 }
 
@@ -120,7 +118,7 @@ p {
 
 .vino {
     height: 15rem;
-    justify-content: center;
+    align align-items: center;
 
 }
 
@@ -133,6 +131,7 @@ p {
     background-color: rgba(0, 0, 0, 0.39);
     margin: 2rem;
 }
+
 form div {
     display: flex;
 }
@@ -162,106 +161,116 @@ footer img {
     header nav ul li a {
         font-size: 1.5rem;
     }
+
     .logo {
         width: 12rem;
     }
-   .subt {
-    font-size: 2.2rem;
-   }
-   p {
-    font-size: 1.7rem
-   }
-   .fotos {
-    width: 25rem;
-   }
-   .vino {
-    height: 20rem;
-   }
-   .losVinos p {
-    font-size: 1.7rem;
-    margin: 1.2rem;
-   }
+
+    .subt {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.7rem
+    }
+
+    .fotos {
+        width: 25rem;
+    }
+
+    .vino {
+        height: 20rem;
+    }
+
+    .losVinos p {
+        font-size: 1.7rem;
+        margin: 1.2rem;
+    }
 }
 
 @media (min-width: 768px) {
-    .navBar ul, li {
+
+    .navBar ul,
+    li {
         gap: 4rem;
     }
+
     header nav ul li a {
         font-size: 2rem;
     }
-        .logo {
-            width: 15rem;
-        }
-        .losVinos {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            grid-template-areas: 
+
+    .logo {
+        width: 15rem;
+    }
+
+    .losVinos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
             "tannat cabernet"
             "tannat roble"
             "chardonnay espumante"
             "rosado espumante";
-        }
-        .tannat {
-            grid-area: tannat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 5rem;
-        }
-        .cabernet {
-            grid-area: cabernet;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 5rem;
-        }
-        .roble {
-            grid-area: roble;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 5rem;
-        }
-        .espumante {
-            grid-area: espumante;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-        }
-        .chardonnay {
-            grid-area: chardonnay;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .rosado {
-            grid-area: rosado;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 5rem;
-        }
-        .losVinos img {
-            justify-content: center;
-        }
-        .losVinos p {
-            justify-content: center;
-        }
-        .subt {
-            font-size: 2.5rem;
-        }
-        .section p {
-            font-size: 2rem;
-        }
-   
     }
 
+    .tannat {
+        grid-area: tannat;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cabernet {
+        grid-area: cabernet;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .roble {
+        grid-area: roble;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .espumante {
+        grid-area: espumante;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .chardonnay {
+        grid-area: chardonnay;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .rosado {
+        grid-area: rosado;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .losVinos p {
+        justify-content: center;
+    }
+
+    .subt {
+        font-size: 2.5rem;
+    }
+
+    .section p {
+        font-size: 2rem;
+    }
+
+}
