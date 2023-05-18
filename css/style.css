@@ -153,6 +153,14 @@ label {
     background-color: #F3DEBA;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
 }
 
 footer {
@@ -286,22 +294,6 @@ footer img {
 
         .subt {
             font-size: 3rem;
-        }
-
-        .sectionVino {
-            display: flex;
-        }
-
-        .vinoUno {
-            display: flex;
-        }
-
-        .vinoDos {
-            display: flex;
-        }
-
-        .vinoTres {
-            display: flex;
         }
 
         .losVinos {
