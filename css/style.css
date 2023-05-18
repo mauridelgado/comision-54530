@@ -195,6 +195,10 @@ footer img {
     p {
         font-size: 1.7rem
     }
+    p::selection {
+        background-color: rgba(255, 241, 44, 0.863);
+        color: black;
+    }
 
     .fotos {
         width: 25rem;
