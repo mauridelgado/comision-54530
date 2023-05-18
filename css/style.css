@@ -184,6 +184,12 @@ footer img {
     height: 2rem;
     margin: 0.5rem;
 }
+.boton {
+    background-color: #675D50;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
 
 @media (min-width: 375px) {
     header nav ul li a {
@@ -334,5 +340,12 @@ footer img {
         }
         #exampleFormControlTextarea1 {
             font-size: 1.5rem;
+        }
+        .boton {
+            font-size: 2rem;
+            background-color: #675D50;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
         }
     }
