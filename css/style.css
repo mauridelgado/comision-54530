@@ -21,7 +21,6 @@ html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow: auto;
 }
 
 header {
@@ -70,7 +69,7 @@ h2 {
     padding: 5px;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .subt {
@@ -101,6 +100,7 @@ p {
     padding: 2rem;
     justify-content: center;
     align-items: center;
+    margin: 3rem;
 }
 
 .losVinos {
@@ -120,7 +120,7 @@ p {
 
 .vino {
     height: 15rem;
-    align align-items: center;
+   align-items: center;
 
 }
 
@@ -219,27 +219,36 @@ footer img {
 
     .sectionVino {
         display: grid;
-        grid-template-columns: repeat(2fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas:
-            "vinoUno vinoUno"
-            "vinoDos vinoDos"
-            "vinoTres vinoTres"
+            "tannat cabernet"
+            "roble espumante"
+            "chardonnay rosado"
     }
 
-    .vinoUno {
-        grid-area: vinoUno;
+    .tannat {
+        grid-area: tannat;
     }
 
-    .vinoDos {
-        grid-area: vinoDos;
+    .cabernet {
+        grid-area: cabernet;
     }
 
-    .vinoTres {
-        grid-area: vinoTres;
+    .roble {
+        grid-area: roble;
     }
 
+    .espumante {
+        grid-area: espumante;
+    }
 
+    .chardonnay {
+        grid-area: chardonnay;
+    }
+
+    .rosado {
+        grid-area: rosado;
     }
 
     .losVinos p {
@@ -253,45 +262,57 @@ footer img {
     .section p {
         font-size: 2rem;
     }
-
-
-@media (min-width: 1024px) {
-
-    .navBar ul,
-    li{
-        gap: 10rem;
-    }
-    header nav ul li a {
-        font-size: 2.7rem;
-    }
-    .logo {
-        width: 17rem;
-    }
-    .section p {
-        font-size: 2.5rem;
-    }
-    .subt {
-        font-size: 3rem;
-    }
-    .sectionVino {
-        display: flex;
-    }
-    .vinoUno {
-        display: flex;
-    }
-    .vinoDos {
-        display: flex;
-    }
-    .vinoTres {
-        display: flex;
-    }
-    .losVinos {
-        margin: 7rem;
-    }
-    .fotos {
-        width: 30rem;
-    }
-    .vino {
-        height: 30rem;
-    }
 }
+
+
+    @media (min-width: 1024px) {
+
+        .navBar ul,
+        li {
+            gap: 10rem;
+        }
+
+        header nav ul li a {
+            font-size: 2.7rem;
+        }
+
+        .logo {
+            width: 17rem;
+        }
+
+        .section p {
+            font-size: 2.5rem;
+        }
+
+        .subt {
+            font-size: 3rem;
+        }
+
+        .sectionVino {
+            display: flex;
+        }
+
+        .vinoUno {
+            display: flex;
+        }
+
+        .vinoDos {
+            display: flex;
+        }
+
+        .vinoTres {
+            display: flex;
+        }
+
+        .losVinos {
+            margin: 7rem;
+        }
+
+        .fotos {
+            width: 30rem;
+        }
+
+        .vino {
+            height: 30rem;
+        }
+    }
