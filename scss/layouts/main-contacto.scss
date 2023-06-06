@@ -1,0 +1,5 @@
+body {
+  .mb-3 {
+    @include flex(column, center, center, 0rem);
+  }
+}

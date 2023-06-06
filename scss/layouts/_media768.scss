@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
-  header {
-
+  body {
+    header {
       ul {
         li {
           gap: 4rem;
@@ -13,50 +13,59 @@
         }
       }
     }
-  body {
-  .sectionVino {
-    @include grid(
-      repeat(2, 1fr),
-      repeat(3, 1fr),
-      "tannat cabernet" "roble espumante" "chardonnay rosado"
-    );
-    .losVinos{ 
-        p {
+    main {
+      .sectionVino {
+        @include grid(
+          repeat(2, 1fr),
+          repeat(3, 1fr),
+          "tannat cabernet" "roble espumante" "chardonnay rosado"
+        );
+        .losVinos {
+          p {
             justify-content: center;
-        }
-        .subt {
+          }
+          .subt {
             font-size: 2rem;
+          }
+          .tannat {
+            grid-area: tannat;
+          }
+
+          .cabernet {
+            grid-area: cabernet;
+          }
+
+          .roble {
+            grid-area: roble;
+          }
+
+          .espumante {
+            grid-area: espumante;
+          }
+
+          .chardonnay {
+            grid-area: chardonnay;
+          }
+
+          .rosado {
+            grid-area: rosado;
+          }
         }
-.tannat {
-    grid-area: tannat;
-}
-
-.cabernet {
-    grid-area: cabernet;
-}
-
-.roble {
-    grid-area: roble;
-}
-
-.espumante {
-    grid-area: espumante;
-}
-
-.chardonnay {
-    grid-area: chardonnay;
-}
-
-.rosado {
-    grid-area: rosado;
-}
+      }
+      section {
+        p {
+          font-size: 2rem;
+        }
+      }
+      .contacto {
+        .mb-3 {
+          display: flex;
+          align-items: start;
+        }
+        label {
+          margin-right: 2rem;
+        }
+      }
     }
   }
-    section {
-        p{
-            font-size: 2rem;
-        }
-    }
-  }
 }
-

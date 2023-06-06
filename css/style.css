@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;400&display=swap");
+body main section .col-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+body main section label {
+  background-color: #f3deba;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+body main section .boton {
+  background-color: #675d50;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
 /* font-family: 'Fira Sans Condensed', sans-serif; */
 * {
   margin: 0;
@@ -9,31 +30,36 @@
 html {
   font-size: 62.5%;
 }
-
-body {
+html body {
   background-image: url(../../assets/img/background.jpg);
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0rem;
 }
 
+header {
+  margin-top: auto;
+}
 header nav {
   background-color: #675D50;
-  min-width: 100%;
+  width: 100vw;
 }
 header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
 }
 header nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   padding: 0.2rem;
 }
@@ -48,18 +74,19 @@ header nav ul li a img {
 }
 
 body {
-  width: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0;
+  width: 100%;
 }
 body section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0;
-  width: 80%;
   background-color: rgba(0, 0, 0, 0.39);
   margin: 2rem;
 }
@@ -67,6 +94,7 @@ body h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0rem;
   font-family: "Fira Sans Condensed", sans-serif;
   color: #F3DEBA;
@@ -79,6 +107,7 @@ body p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0rem;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 1.5rem;
@@ -89,135 +118,194 @@ body .fotos {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0rem;
   width: 20rem;
   background-color: #F3DEBA;
   padding: 2rem;
   margin: 3rem;
 }
-body div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
+body iframe {
+  margin: 1.2rem;
 }
 
-.sectionVino {
+body .sectionVino {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
-  width: 80%;
+  align-items: center;
+  gap: 0rem;
   background-color: rgba(0, 0, 0, 0.39);
   margin: 2rem;
 }
-.sectionVino p {
+body .sectionVino img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+  height: 15rem;
+}
+body .sectionVino p {
   background-color: #675D50;
   font-size: 1.5rem;
-  margin: 1rem;
-  justify-content: center;
+  padding: 0.8rem;
 }
-.sectionVino img {
-  height: 15rem;
-  width: 13rem;
+body .sectionVino .losVinos {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+
+body .mb-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
 }
 
 footer {
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0rem;
   height: 3rem;
-  width: 100%;
-  bottom: 0;
-  margin-top: auto;
   background-color: #675D50;
 }
 footer img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 0.8rem;
   height: 2rem;
   margin: 0.5rem;
 }
 
 @media (min-width: 375px) {
-  header nav ul li a {
+  body header nav ul li a {
     font-size: 1.5rem;
   }
-  header nav ul li a img {
+  body header nav ul li a img {
     width: 12rem;
   }
-  body .subt {
+  body main .subt {
     font-size: 2.2rem;
   }
-  body p {
+  body main p {
     font-size: 1.7rem;
   }
-  body .fotos {
+  body main .fotos {
     width: 25rem;
   }
-  .sectionVino p {
+  body .sectionVino p {
     font-size: 1.7rem;
     margin: 1.2rem;
   }
-  .sectionVino .fotos {
+  body .sectionVino .fotos {
     height: 20rem;
   }
 }
 @media (min-width: 768px) {
-  header ul li {
+  body header ul li {
     gap: 4rem;
   }
-  header ul li a {
+  body header ul li a {
     font-size: 2rem;
   }
-  header ul li a img {
+  body header ul li a img {
     width: 15rem;
   }
-  body .sectionVino {
+  body main .sectionVino {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "tannat cabernet" "roble espumante" "chardonnay rosado";
   }
-  body .sectionVino .losVinos p {
+  body main .sectionVino .losVinos p {
     justify-content: center;
   }
-  body .sectionVino .losVinos .subt {
+  body main .sectionVino .losVinos .subt {
     font-size: 2rem;
   }
-  body .sectionVino .losVinos .tannat {
+  body main .sectionVino .losVinos .tannat {
     grid-area: tannat;
   }
-  body .sectionVino .losVinos .cabernet {
+  body main .sectionVino .losVinos .cabernet {
     grid-area: cabernet;
   }
-  body .sectionVino .losVinos .roble {
+  body main .sectionVino .losVinos .roble {
     grid-area: roble;
   }
-  body .sectionVino .losVinos .espumante {
+  body main .sectionVino .losVinos .espumante {
     grid-area: espumante;
   }
-  body .sectionVino .losVinos .chardonnay {
+  body main .sectionVino .losVinos .chardonnay {
     grid-area: chardonnay;
   }
-  body .sectionVino .losVinos .rosado {
+  body main .sectionVino .losVinos .rosado {
     grid-area: rosado;
   }
-  body section p {
+  body main section p {
     font-size: 2rem;
+  }
+  body main .contacto .mb-3 {
+    display: flex;
+    align-items: start;
+  }
+  body main .contacto label {
+    margin-right: 2rem;
   }
 }
 @media (min-width: 1024px) {
+  body header nav ul li {
+    justify-content: space-around;
+  }
   body header nav ul li a {
-    font-size: 2.7rem;
-    padding: 2rem;
+    font-size: 2.4rem;
+    margin: 0rem 2rem;
   }
   body header nav ul li a img {
-    width: 17rem;
+    width: 15rem;
+  }
+  main section {
+    flex-direction: row;
+  }
+  main footer img {
+    height: 3rem;
+  }
+  main .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    margin: 2rem;
+  }
+  main .contacto label {
+    margin-right: 4rem;
+    font-size: 2rem;
+  }
+  main .contacto .col-12 {
+    font-size: 2rem;
+  }
+  main .contacto #exampleFormControlInput1 {
+    font-size: 1.5rem;
+  }
+  main .contacto #exampleFormControlTextarea1 {
+    font-size: 1.5rem;
+  }
+  main .contacto .boton {
+    font-size: 2rem;
+    background-color: #675d50;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
   }
 }
 

@@ -1,22 +1,23 @@
 header {
-    nav {
+  margin-top: auto;
+  nav {
     background-color: $color-principal;
-    min-width: 100%;
+    width: 100vw;
     ul {
-        @include flex (row, center, center, 0.8rem);
-        li {
-            @include flex (row, center, center, 0.8rem);
-            padding: 0.2rem;
-            a {
-                text-decoration: none;
-                color: $color-dos;
-                font-family: 'Fira Sans Condensed', sans-serif;
-                font-size: 1.2rem;
-                img {
-                    width: 10rem;
-                }
-            }
+      @include flex(row, center, center, 0.8rem);
+      li {
+        @include flex(row, center, center, 0.8rem);
+        padding: 0.2rem;
+        a {
+          text-decoration: none;
+          color: $color-dos;
+          font-family: "Fira Sans Condensed", sans-serif;
+          font-size: 1.2rem;
+          img {
+            width: 10rem;
+          }
         }
+      }
     }
-}
+  }
 }

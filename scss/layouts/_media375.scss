@@ -1,39 +1,40 @@
 @media (min-width: 375px) {
+  body {
     header {
-        nav {
-            ul{
-
-             li {
-                a {
-        font-size: 1.5rem;
-        img {
-            width: 12rem;
-        }
-                }
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 1.5rem;
+              img {
+                width: 12rem;
+              }
             }
+          }
         }
-    }
+      }
     }
 
-  body {  
-    .subt {
+    main {
+      .subt {
         font-size: 2.2rem;
-    }
+      }
 
-    p {
-        font-size: 1.7rem
+      p {
+        font-size: 1.7rem;
+      }
+      .fotos {
+        width: 25rem;
+      }
     }
- .fotos {
-    width: 25rem;
- }
-}
-.sectionVino {
-    p {
+    .sectionVino {
+      p {
         font-size: 1.7rem;
         margin: 1.2rem;
-    }
-    .fotos {
+      }
+      .fotos {
         height: 20rem;
+      }
     }
-}
+  }
 }
