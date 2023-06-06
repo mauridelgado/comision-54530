@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+  header {
+
+      ul {
+        li {
+          gap: 4rem;
+          a {
+            font-size: 2rem;
+            img {
+              width: 15rem;
+            }
+          }
+        }
+      }
+    }
+  body {
+  .sectionVino {
+    @include grid(
+      repeat(2, 1fr),
+      repeat(3, 1fr),
+      "tannat cabernet" "roble espumante" "chardonnay rosado"
+    );
+    .losVinos{ 
+        p {
+            justify-content: center;
+        }
+        .subt {
+            font-size: 2rem;
+        }
+.tannat {
+    grid-area: tannat;
+}
+
+.cabernet {
+    grid-area: cabernet;
+}
+
+.roble {
+    grid-area: roble;
+}
+
+.espumante {
+    grid-area: espumante;
+}
+
+.chardonnay {
+    grid-area: chardonnay;
+}
+
+.rosado {
+    grid-area: rosado;
+}
+    }
+  }
+    section {
+        p{
+            font-size: 2rem;
+        }
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+.sectionVino {
+    @include flex (column, center, center, 0rem);
+    width: 80%;
+    background-color: $fondo-negro;
+    margin: 2rem;
+img {
+    height: 15rem;
+    align-items: center;
+}
+p {
+    background-color: $color-principal;
+    font-size: 1.5rem;
+    margin: 1rem;
+    justify-content: center;
+}
+}

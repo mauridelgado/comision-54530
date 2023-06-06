@@ -1,20 +1,41 @@
-main {
-    @include flex (column, center, center, 0rem);
-}
+body {
+    width: 100vh;
+    @include flex (column, center, center, 0);
+    section {
+    @include flex (column, center, center, 0);
+    width: 80%;
+    background-color: $fondo-negro;
+    margin: 2rem; 
+    }
 
 h2 {
     @include flex (row, center, center, 0rem);
     font-family: 'Fira Sans Condensed', sans-serif;
     color: $color-dos;
+    background-color: black;
     font-size: 2rem;
-    padding: 5px;
-    margin-top: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
 }
 
 p {
-    @include flex (row, center, center, 1rem);
+    @include flex (row, center, center, 0rem);
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 1.5rem;
     color: white;
+    margin: 1rem;
 }
 
+.fotos {
+    @include flex (column, center, center, 0rem);
+    width: 20rem;
+    background-color: $color-dos;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+
+div {
+    @include flex (column, center, center, 2rem)
+}
+}
