@@ -30,8 +30,9 @@ body main section .boton {
 html {
   font-size: 62.5%;
 }
-html body {
-  background-image: url(../../assets/img/background.jpg);
+
+body {
+  background-image: url(../assets/img/background.jpg);
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
