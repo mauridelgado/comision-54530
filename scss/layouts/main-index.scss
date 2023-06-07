@@ -1,4 +1,5 @@
 body {
+  position: relative;
   @include flex(column, center, center, 0);
   width: 100%;
   section {
