@@ -41,9 +41,6 @@ html body {
   gap: 0rem;
 }
 
-header {
-  margin-top: auto;
-}
 header nav {
   background-color: #675D50;
   width: 100vw;
@@ -61,7 +58,6 @@ header nav ul li {
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
-  padding: 0.2rem;
 }
 header nav ul li a {
   text-decoration: none;

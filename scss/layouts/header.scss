@@ -1,5 +1,4 @@
 header {
-  margin-top: auto;
   nav {
     background-color: $color-principal;
     width: 100vw;
@@ -7,7 +6,7 @@ header {
       @include flex(row, center, center, 0.8rem);
       li {
         @include flex(row, center, center, 0.8rem);
-        padding: 0.2rem;
+
         a {
           text-decoration: none;
           color: $color-dos;
