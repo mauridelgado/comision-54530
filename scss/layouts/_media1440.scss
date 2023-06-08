@@ -1,0 +1,38 @@
+@media (min-width: 1440px) {
+  body {
+    header {
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 2.8rem;
+              margin: 0rem 4rem;
+              img {
+                width: 20rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      .subt {
+        font-size: 3.5rem;
+      }
+      .fotos {
+        width: 35rem;
+      }
+      section {
+        p {
+          font-size: 2.6rem;
+        }
+      }
+      .sectionVino {
+        img {
+          height: 25rem;
+        }
+      }
+    }
+  }
+}

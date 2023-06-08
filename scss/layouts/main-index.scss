@@ -1,7 +1,5 @@
 body {
-  position: relative;
   @include flex(column, center, center, 0);
-  width: 100%;
   section {
     @include flex(column, center, center, 0);
     background-color: $fondo-negro;
@@ -29,7 +27,7 @@ body {
   .fotos {
     @include flex(column, center, center, 0rem);
     width: 20rem;
-    background-color: $color-dos;
+    background-color: $color-principal;
     padding: 2rem;
     margin: 3rem;
   }

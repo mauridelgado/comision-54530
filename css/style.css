@@ -34,7 +34,6 @@ html {
 body {
   background-image: url(../assets/img/background.jpg);
   background-repeat: no-repeat;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,13 +70,11 @@ header nav ul li a img {
 }
 
 body {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0;
-  width: 100%;
 }
 body section {
   display: flex;
@@ -119,7 +116,7 @@ body .fotos {
   align-items: center;
   gap: 0rem;
   width: 20rem;
-  background-color: #F3DEBA;
+  background-color: #675D50;
   padding: 2rem;
   margin: 3rem;
 }
@@ -164,18 +161,21 @@ body .mb-3 {
   align-items: center;
   gap: 0rem;
 }
+body .contacto {
+  padding: 2rem;
+}
 
 footer {
-  width: 100vw;
-  position: absolute;
   bottom: 0;
+  margin-top: auto;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0rem;
   height: 3rem;
-  background-color: #675D50;
+  background-color: #F3DEBA;
 }
 footer img {
   display: flex;
@@ -306,6 +306,27 @@ footer img {
     color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  body header nav ul li a {
+    font-size: 2.8rem;
+    margin: 0rem 4rem;
+  }
+  body header nav ul li a img {
+    width: 20rem;
+  }
+  body main .subt {
+    font-size: 3.5rem;
+  }
+  body main .fotos {
+    width: 35rem;
+  }
+  body main section p {
+    font-size: 2.6rem;
+  }
+  body main .sectionVino img {
+    height: 25rem;
   }
 }
 

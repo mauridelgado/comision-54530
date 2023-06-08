@@ -1,10 +1,10 @@
 footer {
-  width: 100vw;
-  position: absolute;
   bottom: 0;
+  margin-top: auto;
+  width: 100vw;
   @include flex(row, center, center, 0rem);
   height: 3rem;
-  background-color: $color-principal;
+  background-color: $color-dos;
   img {
     @include flex(row, center, center, 0.8rem);
     height: 2rem;
